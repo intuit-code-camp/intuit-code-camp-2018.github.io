@@ -1,76 +1,78 @@
 <html>
-    <!-- <body onload="init()"> -->
+
     <body>
-        <h1 class="header"> Header </h1>
 
-        <img class="image" src="../img/cat.jpg"></img>
+        <h1> Things everyone does in minecraft that is totally annoying </h1>
+       
+        <p>
+             In Minecraft you can die in so many annoying ways.
+             I died so many time in all my worlds by lava, mobs, suffocation and fall damage.
+             Minecraft can even have your builds exploded, bured and literally ruined. 
+             From getting exploded by creepers to falling into lava with loads of loot,
+             here are many different ways to be annoyed in this super fun game.
+       </p>
 
-        <p class="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Maecenas volutpat viverra felis vitae pulvinar. Vestibulum lacinia pellentesque orci
-            ut pellentesque. Mauris consectetur nulla in tempus luctus. Suspendisse aliquet,
-            sapien vel lacinia commodo, nunc massa accumsan augue, eget ullamcorper
-            odio neque quis massa. Nunc sit amet egestas tortor, id laoreet lectus.
-            Maecenas sed aliquam felis, sed eleifend orci. In id tincidunt orci. Proin
-            consectetur, tellus eget dictum placerat, risus sem tristique est, vel elementum orci
-            neque a urna. Quisque euismod felis quis metus faucibus iaculis. Nam dapibus
-            nibh et ipsum laoreet hendrerit. Nulla ac accumsan justo. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur
-            convallis malesuada feugiat. Integer tempus pretium dolor, sit amet gravida
-            nisi viverra sit amet. Integer molestie massa at tellus rhoncus ullamcorper.
-            Cras a ullamcorper urna.
-        </p>
-        <!--
-        <button class="button" onclick="myFunction()">Button</button>
-        <button class="button" onclick="myFunction1()">Button 2</button>
-        -->
+        <button onclick="thing()">Press if you dare</button>
 
-        <audio controls>
+        <audio controls> 
             <source src="../audio/cat_meow.mp3" type="audio/mpeg">
         </audio>
-
-        <!--Canvas
-        <canvas id="can" class="drawing" width="400" height="400"></canvas>
-        <button onclick="erase()">Erase</button>
-        <script type="text/javascript" src="../widgets/drawing.js"></script>
-        -->
-
-
-        <!--Timmer
-        <script type="text/javascript" src="../widgets/timer.js"></script>
-        <p id="demo"></p>
-        <div> What date would you like to count down until? </div>
-        <input type="date" id="userDate"></input>
-        <button onClick="setDate()">enter</button>
-        -->
-
+         <img src="fire house.jpeg"></img>
     </body>
 
     <style>
-        .header {
+
+        h1{
+            color: orange;
             text-align: center;
+
         }
 
-        .image {
-            width: 300px;
-            display: block;
+
+        img {
+            width:400px;
+            bottom: 0;
+            right: 0;
             margin-left: auto;
-            margin-right: auto;
+            margin-right: 0px;
+            position: fixed;
         }
 
-        .paragraph {
-            text-align: center;
+        
+        p{
+
+          color: white;
+          font-size: 25px;
+          margin-top: 200px;
+    
+         }
+          
+       
+
+        body{
+	   background-image: url("../student15/sheep.gif");
+             
+
+           text-align: center;
+
         }
 
-        .button {
-            padding-top: 30px;
+       button { 
+                color: red;
+
         }
 
-        .drawing {
-            border: 2px solid black;
-            position:absolute;
-            top:10%;
-            left:10%;
-        }
+        
+
     </style>
-</html>
+    
+    <script type="text/javascript">
+
+      function thing() {
+           window.alert("You dare to press the button do you ):<");
+      }
+   
+    </script>
+
+
+ </html>
