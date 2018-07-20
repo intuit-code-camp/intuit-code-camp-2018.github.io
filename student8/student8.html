@@ -1,76 +1,52 @@
 <html>
-    <!-- <body onload="init()"> -->
-    <body>
-        <h1 class="header"> Header </h1>
+ 	<body>
 
-        <img class="image" src="../img/cat.jpg"></img>
+		<h1> Blog </h1>
+                <img src="../img/food2.0.jpg"></img>
+		<p>
+		    For the most of my life i wanted to tell people my story
+                    how i lived how i waned things to go.I was inspiered to<br/>
+     		    do more with my life then just throw it away.I want to show<br/>
+                    the world what im made of and what i can do.  
 
-        <p class="paragraph">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Maecenas volutpat viverra felis vitae pulvinar. Vestibulum lacinia pellentesque orci
-            ut pellentesque. Mauris consectetur nulla in tempus luctus. Suspendisse aliquet,
-            sapien vel lacinia commodo, nunc massa accumsan augue, eget ullamcorper
-            odio neque quis massa. Nunc sit amet egestas tortor, id laoreet lectus.
-            Maecenas sed aliquam felis, sed eleifend orci. In id tincidunt orci. Proin
-            consectetur, tellus eget dictum placerat, risus sem tristique est, vel elementum orci
-            neque a urna. Quisque euismod felis quis metus faucibus iaculis. Nam dapibus
-            nibh et ipsum laoreet hendrerit. Nulla ac accumsan justo. Orci varius natoque
-            penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur
-            convallis malesuada feugiat. Integer tempus pretium dolor, sit amet gravida
-            nisi viverra sit amet. Integer molestie massa at tellus rhoncus ullamcorper.
-            Cras a ullamcorper urna.
-        </p>
-        <!--
-        <button class="button" onclick="myFunction()">Button</button>
-        <button class="button" onclick="myFunction1()">Button 2</button>
-        -->
+               </p>
+               <button onclick="thing()">you have to clike this button!!!!!</button>
+               <audio controls>
+	       <source src="../audio/cat_meow.mp3" tyep="audio/mpeg">
+               </audio>
 
-        <audio controls>
-            <source src="../audio/cat_meow.mp3" type="audio/mpeg">
-        </audio>
+        </body>
+               
 
-        <!--Canvas
-        <canvas id="can" class="drawing" width="400" height="400"></canvas>
-        <button onclick="erase()">Erase</button>
-        <script type="text/javascript" src="../widgets/drawing.js"></script>
-        -->
+	<style>
+              
+
+            h1 {
+ 		 color:#15a4c4;
+                 text-align: center;
+	    } 
+
+            img {
+                  width:300px; 
+                  display:block;
+                  margin-left: auto;
+                  margin-right:auto;
+ 		}
+	         p {text-align: center;}
+        button {width: 300px
 
 
-        <!--Timmer
-        <script type="text/javascript" src="../widgets/timer.js"></script>
-        <p id="demo"></p>
-        <div> What date would you like to count down until? </div>
-        <input type="date" id="userDate"></input>
-        <button onClick="setDate()">enter</button>
-        -->
 
-    </body>
+       </style>
 
-    <style>
-        .header {
-            text-align: center;
-        }
+       <script type="text/javascript">
+	   function thing(){  
+                window.alert("you finilly clicked the button!!!!!!");
 
-        .image {
-            width: 300px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
 
-        .paragraph {
-            text-align: center;
-        }
+       }
+       </script>
 
-        .button {
-            padding-top: 30px;
-        }
+</html>    
 
-        .drawing {
-            border: 2px solid black;
-            position:absolute;
-            top:10%;
-            left:10%;
-        }
-    </style>
-</html>
+
